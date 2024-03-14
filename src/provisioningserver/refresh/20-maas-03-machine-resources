@@ -33,6 +33,7 @@ declare -A ARCH_MAP=(
     [mips64]=mips64el
     [mips]=mips
     [ppc64le]=ppc64el
+    [riscv64]=riscv64
     [s390x]=s390x
     [x86_64]=amd64
 )
