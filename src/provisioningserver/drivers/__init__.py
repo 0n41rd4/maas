@@ -252,6 +252,7 @@ builtin_architectures = [
         description="ppc64el",
         kernel_options=["rootdelay=60"],
     ),
+    Architecture(name="riscv64/generic", description="riscv64"),
 ]
 for arch in builtin_architectures:
     ArchitectureRegistry.register_item(arch.name, arch)
