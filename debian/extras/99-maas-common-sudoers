@@ -64,6 +64,7 @@ maas ALL= NOPASSWD:SETENV: /usr/share/maas/machine-resources/arm64
 maas ALL= NOPASSWD:SETENV: /usr/share/maas/machine-resources/armhf
 maas ALL= NOPASSWD:SETENV: /usr/share/maas/machine-resources/i386
 maas ALL= NOPASSWD:SETENV: /usr/share/maas/machine-resources/ppc64el
+maas ALL= NOPASSWD:SETENV: /usr/share/maas/machine-resources/riscv64
 maas ALL= NOPASSWD:SETENV: /usr/share/maas/machine-resources/s390x
 
 # Allow running refresh scripts on controllers
