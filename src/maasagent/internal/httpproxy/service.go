@@ -41,6 +41,8 @@ var (
 	rewriteRules = []*RewriteRule{
 		NewRewriteRule(regexp.MustCompile(".*/bootaa64.efi"), "boot-resources/bootloaders/uefi/arm64/bootaa64.efi"),
 		NewRewriteRule(regexp.MustCompile(".*/grubaa64.efi"), "boot-resources/bootloaders/uefi/arm64/grubaa64.efi"),
+		NewRewriteRule(regexp.MustCompile(".*/bootriscv64.efi"), "boot-resources/bootloaders/uefi/riscv64/bootriscv64.efi"),
+		NewRewriteRule(regexp.MustCompile(".*/grubriscv64.efi"), "boot-resources/bootloaders/uefi/riscv64/grubriscv64.efi"),
 		NewRewriteRule(regexp.MustCompile(".*/bootx64.efi"), "boot-resources/bootloaders/uefi/amd64/bootx64.efi"),
 		NewRewriteRule(regexp.MustCompile(".*/grubx64.efi"), "boot-resources/bootloaders/uefi/amd64/grubx64.efi"),
 		NewRewriteRule(regexp.MustCompile(".*/bootppc64.bin"), "boot-resources/bootloaders/open-firmware/ppc64el/bootppc64.bin"),
