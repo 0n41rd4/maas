@@ -244,6 +244,8 @@ from provisioningserver.boot.grub import (  # noqa:E402 isort:skip
     UEFIEBCBootMethod,
     UEFIARM64BootMethod,
     UEFIARM64HTTPBootMethod,
+    UEFIRISCV64BootMethod,
+    UEFIRISCV64HTTPBootMethod,
     OpenFirmwarePPC64ELBootMethod,
 )
 from provisioningserver.boot.powernv import (  # noqa:E402 isort:skip
@@ -268,6 +270,8 @@ builtin_boot_methods = [
     UEFIEBCBootMethod(),
     UEFIARM64BootMethod(),
     UEFIARM64HTTPBootMethod(),
+    UEFIRISCV64BootMethod(),
+    UEFIRISCV64HTTPBootMethod(),
     OpenFirmwarePPC64ELBootMethod(),
     PowerNVBootMethod(),
     WindowsPXEBootMethod(),
